@@ -1,0 +1,159 @@
+/*!
+ * Bootstrap Responsive v2.0.3
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+*/
+
+/*@font-face {*/
+/*font-family: "Bitstream Vera Serif Bold";*/
+/*src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");*/
+/*font-weight: bolder;*/
+/*}*/
+
+body{
+    /*font-family: "Bitstream Vera Serif Bold";*/
+    font-family: Tahoma,sans-serif;
+    font-size: 12px;
+}
+.username-password{
+    line-height: 30px;
+}
+.container {
+    height: 336px;
+    width: 522px;
+    margin-top: 70px;
+
+}
+.login-left,.login-middle,.login-right {
+    height: 336px;
+}
+.login-left {
+    background: url("../img/login-left.png") left top no-repeat;
+    padding-left: 26px;
+}
+.login-middle {
+    background: url("../img/login-middel.png") left top repeat-x;
+}
+.login-right {
+    background: url("../img/login-right.png") right top no-repeat;
+    padding-right: 26px;
+}
+.slogan{
+    color: #ffffff;
+    font-size: 14px;
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+}
+.logo-container{
+    height: 108px;
+}
+.logo-container:after{
+    clear: both;
+    content: '';
+}
+.logo{
+    background: url("../img/logo.png") no-repeat left center ;
+    height: 110px;
+    width: 186px;
+    float: left;
+
+}
+.locker{
+    background: url("../img/locker.png") no-repeat right center ;
+    height: 110px;
+    width: 28px;
+    float: right;
+}
+.administration-login{
+    color: #000;
+    font-size:14px;
+    text-transform:uppercase;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 0px;
+}
+.user-password{
+    height: 100px;
+
+}
+.user-password:after{
+    clear: both;
+    content: '';
+}
+.user-name{
+    height: 56px;
+    width: 217px;
+    float: left;
+    margin-top:20px;
+}
+
+.icon-user{
+    background: url("../img/icon-user.png") no-repeat left center ;
+    height:15px;
+    width: 15px;
+    float: left;
+}
+.password{
+    height: 56px;
+    width: 217px;
+    float: right;
+    margin-top:20px;
+}
+.icon-password{
+    background: url("../img/icon-password.png") no-repeat right center ;
+    height: 15px;
+    width: 15px;
+    float: right;
+
+}
+.login-footer,.login-footer>div{
+    height:65px;
+    line-height:65px;
+}
+.login-footer:after{
+    clear: both;
+}
+.rember-me{
+    height: 50px;
+    width: 141px;
+    float: left;
+}
+.rember-me ul{
+    padding: 0;
+    margin:0;
+    position: relative;
+    top:10px;
+}
+.sign-in{
+    float: right;
+    margin-top: 14px;
+}
+.btn{
+    color: #698e1a;
+}
+ul li{
+    list-style: none;
+    vertical-align: top;
+    color: #FFFFFF;
+}
+li.forgot {
+    background: url("../img/forgot.png") left center no-repeat;
+    padding-left: 18px;
+
+}
+ul li .checkbox{ color: #FFFFFF;}
+.username-password-header{
+    font-size: 14px;
+    line-height: 14px !important;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.alert-danger, .alert-error{
+    line-height: 20px !important;
+}

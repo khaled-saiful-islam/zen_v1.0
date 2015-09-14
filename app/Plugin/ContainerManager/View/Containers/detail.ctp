@@ -1,0 +1,1 @@
+<?php echo $this->element('Detail/Container/container_detail', array('legend' => 'View Container', 'edit' => false)); ?>

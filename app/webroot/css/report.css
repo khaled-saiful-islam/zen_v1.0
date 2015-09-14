@@ -1,0 +1,490 @@
+/** Report Section Start **/
+/* Reset */
+.clr {
+    clear: both;
+}
+.logo, .header {
+    background-image: none;
+}
+.logo{
+    float: left!important;
+}
+.logo_report {
+    background-image: url(../img/header_logo2.jpg);
+    background-repeat: no-repeat;
+    height: 100px;
+    margin-left: 15px;
+}
+* {
+    background-color: white !important;
+    color: black;
+}
+@media screen, print {
+    body { font-size: 16pt }
+    body { line-height: 1.2 }
+}
+
+@media all {
+    .page-break	{ display: none;}
+}
+
+@media print {
+    .page-break	{ display: block; page-break-before: always; }
+    .page-break-group	{ display: block; page-break-after: always; }
+    .hide-in-print {display: none;}
+    div.divFooter {
+        position: fixed;
+        bottom: 0;
+    }
+    div.report-header-print {
+        position: fixed;
+        top: 0;
+    }
+    div.report-header-space-print {
+        height: 144px;
+    }
+}
+@font-face
+{
+    font-family: karla;
+    src: url(../font/Karla-Regular.ttf);
+}
+@font-face
+{
+    font-family: inconsolata;
+    src: url(../font/Inconsolata-Regular.ttf);
+}
+@font-face
+{
+    font-family: cousine;
+    src: url(../font/Cousine-Regular.ttf);
+}
+@font-face
+{
+    font-family: anonymousPro;
+    src: url(../font/AnonymousPro-Regular.ttf);
+}
+@media screen {
+    .hide-in-screen {display: none;}
+    div.divFooter, div.report-header-print {
+        display: none;
+    }
+}
+
+/*Size: 8.27in and 11.69 inches*/
+@page container-report {
+    size:8.27in 11.69in;
+    margin:.5in .5in .5in .5in;
+    mso-header-margin:.5in;
+    mso-footer-margin:.5in;
+    mso-paper-source:0;
+}
+div.container-report {
+    page:container-report;
+}
+
+body.report {
+    font-size: 20pt;
+/*    font-family: inconsolata !important;*/
+    font-family: cousine !important;
+}
+
+#header-right {
+    margin-left: 0;
+}
+.container-report {
+    width: 1000px;
+}
+.report-area {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.report-area table {
+    max-width: 1000px;
+}
+.report-area div.quotes.report-print div.cabinet-list table {
+    /*  font-family: 'Courier New', 'Lucida Sans Unicode', 'Tahoma', 'Times New Roman', serif !important;*/
+/*    font-family: inconsolata;*/
+    font-family: cousine !important;
+}
+.report-area table.quote-table-mid-width,
+.report-area #sub-content-item-detail table {
+    min-width: 0 !important;
+    width: auto !important;
+}
+.report-area table.quote-table-mid-width td {
+    /*width: auto !important;*/
+}
+.report-area table td {
+    /*width: auto !important;*/
+}
+.report-area table td.value {
+    min-width: 200px;
+}
+/*.report-area table td.name {
+  width: 80px;
+}
+.report-area table td.email {
+  width: 80px;
+}*/
+.report-area table td.sales_rep,
+.report-area table td.phone {
+    white-space: nowrap;
+}
+
+.table-bordered thead:last-child tr:last-child > th:last-child, .table-bordered tbody:last-child tr:last-child > td:last-child, .table-bordered tfoot:last-child tr:last-child > td:last-child {
+    width: auto;
+}
+/** Report Section End **/
+.address{
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.table-data-title{
+    cursor: text;
+    font-size: 13px;
+    text-align: left;
+    text-decoration: underline;
+}
+table.table-form-big-margin{
+    margin-top: 10px;
+}
+body.report .header{
+    height: 144px;
+    margin-top: 10px;
+    width: 1000px;
+}
+body.report .logo{
+    width: 135px;
+}
+body.report .header .header-right{
+    float: right;
+    width: 300px;
+    margin-right: 10px;
+    text-align: right;
+    /*  margin-top: 20px;*/
+}
+body.report .header .header-left{
+    float: left;
+    width: 430px;
+}
+.header-right span.report-title{
+    color: #385623;
+    font-weight: bold;
+    font-size: 40px;
+    display: block;
+    margin-bottom: -20px;
+}
+.header-right span.report-number{
+    font-weight: bold;
+    font-size: 24px;
+}
+.header-right span.report-date{
+    font-size: 16px;
+    color: #acacac;
+    /*  font-weight: bold;*/
+}
+
+/*table{
+  margin-left: 32px;
+  border: 1px solid #000;
+  width: 350px;
+  float: left;
+}*/
+/*table tr th, td{
+  width: 170px;
+  font-size: 12px;
+}*/
+table td{
+    /*width: 200px;*/
+    width: 85%;
+    font-size: 12px;
+}
+table tr th label{
+    text-align: left;
+    padding-left: 5px;
+    font-weight: bold;
+    cursor: text;
+}
+.report-right-box-info tr th label{
+    /*  padding-top: 2px;*/
+}
+table.service-detail{
+    width: 732px;
+    margin-top: 10px;
+}
+table.service-detail tr th.wide-width{
+    width: 150px;
+}
+.top-row{
+    /*background-color: #ccc;*/
+    border-bottom: 1px solid #000;
+}
+
+.table-bordered thead:first-child tr:first-child > th:first-child, .table-bordered tbody:first-child tr:first-child > td:first-child {
+    border: none;
+}
+table.listing {
+    border: 0px solid #000;
+    width: 980px;
+}
+.report-print tr {
+    height: 15px;
+    /*border: none;*/
+    border-bottom: thin black solid;
+}
+.report-print tr td {
+    line-height: 10px;
+    vertical-align: top;
+    border: none;
+}
+table.table-report-listing {
+    width: 100%;
+    min-width: 600px;
+}
+table.table-report-listing th {
+    white-space: nowrap;
+}
+table.table-report-compact {
+    min-width: 300px;
+    /*	border-radius: 25px!important;*/
+    /*  border: #000 solid 2px;*/
+    overflow: hidden;
+    display: block;
+}
+table.table-report-compact th {
+    white-space: nowrap;
+    text-align: left;
+    padding-left: 10px;
+}
+table.table_new_design th, td{
+    font-size: 15px!important;
+    font-weight: normal;
+}
+table.table-report-PO {
+    min-width: 300px;
+    border: #000000 solid 1px;
+    overflow: hidden;
+    display: block;
+}
+table.table-report-PO th {
+    white-space: nowrap;
+    text-align: left;
+    padding-left: 10px;
+    color: #00008E!important;
+    font-weight: bold;
+}
+table#po-report-total-section-left tr td:first-child {
+    color: #00008E!important;
+    font-size: 14px;
+}
+table.table-report-compact_image {
+    min-width: 300px;
+    border: #000000 solid 1px;
+}
+table.table-report-compact_image th {
+    white-space: nowrap;
+    text-align: left;
+    padding-left: 10px;
+}
+.invoice .top-row th label{
+    text-align: center;
+}
+table.order-pricing{
+    margin-top: 10px;
+    width: 350px;
+}
+table.order-pricing .title-row{
+    /*background-color: #ccc;*/
+    border-bottom: 1px solid #000;
+}
+table.order-pricing tr td{
+    padding: 5px 0px 5px 10px;
+}
+table.order-pricing tr td.wide-width{
+    width: 180px;
+}
+.install-completion table.report-full-box-info{
+    width: 94%;
+}
+.install-completion table.report-full-box-info tr th{
+    width: 50px;
+}
+.install-completion .table-border tr td{
+    border: 1px solid #000;
+}
+.install-completion .table-border tr th.main-title{
+    padding: 8px 5px;
+    text-align: left;
+}
+.install-completion .table-border tr th.main-title label{
+    padding-right: 104px;
+    float: left;
+}
+.install-completion .table-border tr th.main-title label.last{
+    padding-right: 0px;
+}
+.install-completion .table-border tr td.wide-width{
+    width: 120px;
+    text-align: left;
+}
+.install-completion .table-border tr.sub-title td{
+    font-weight: bold;
+}
+.install-completion .table-border tr td{
+    width: 15px;
+    text-align: center;
+    padding: 5px 5px;
+}
+.customer_report_box{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    min-height: 100px;
+    margin-top: 25px;
+}
+.customer_report_box_title{
+    /*  background: #d9d9d9;*/
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.customer_report_box_title_second{
+    /*  background: #d9d9d9;*/
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.customer_report_box_contact{
+    height: 20px;
+    /*  background-color: #EEEEEE;*/
+    border-bottom: 1px solid black;
+}
+.customer_report_box_contact_first{
+    float: left;
+    width: 50%;
+    /*border-right: 1px solid #000;*/
+    height: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.customer_report_box_contact_second{
+    float: left;
+    width: 40%;
+    margin-left: 20px;
+}
+.report_table{
+    margin: 15px;
+}
+.report_table th{
+    float: right;
+    padding-top: 20px;
+}
+.report_table td{
+    padding-left: 15px;
+    padding-top: 20px;
+    border-bottom: 1px dashed #000;
+    font-size: 13px;
+}
+.contact_second_part{
+    height: auto;
+    float: left;
+}
+.contact_second_part_title{
+    float: left;
+    height: 80px;
+    width: 100px;
+    /*border-right: 1px solid #000;*/
+    text-align: right;
+    padding-right: 10px;
+}
+.contact_second_part_phone{
+    float: left;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.dashed-underline {
+    border-bottom: #000 solid 1px !important;
+    height: 15px;
+}
+
+.quotes.report-print table.table-report-listing,
+.quotes.report-print table.table-report-listing th,
+.quotes.report-print table.table-report-listing td {
+    font-size: 12pt;
+    line-height: 1.5;
+}
+.quotes.report-print tr {
+    border-bottom: none;
+    line-height: 20px;
+}
+.quotes.report-print th {
+    /*  min-width: 80px;*/
+    /*  padding-right: 10px;
+            padding-left: 10px;*/
+}
+.quotes.report-print td {
+    min-width: 50px;
+    padding: 5px;
+}
+.quotes.report-print td.quantity {
+    min-width: 30px;
+    width: 30px;
+}
+.quotes.report-print td.qty_mng {
+    min-width: 10px;
+    width: 10px;
+}
+.quotes.report-print td.small {
+    min-width: 100px;
+    width: 100px !important;
+}
+.quotes.report-print td.small_detail {
+    min-width: 60px;
+    width: 60px !important;
+}
+.quotes.report-print td.semi {
+    min-width: 200px;
+    width: 200px !important;
+}
+.quotes.report-print td.normal {
+    min-width: 200px;
+    width: 200px;
+}
+
+table.table-form-big tr th {
+    border-bottom: 1px solid #EDEBE8;
+}
+
+div.quotes.report-print fieldset legend.sub-title {
+    font-size: 20pt;
+}
+
+.report-area div.quotes.report-print div.tab-content fieldset#quote-basic-info-detail table {
+    width: 100%;
+}
+.report-area div.quotes.report-print div.tab-content fieldset#quote-basic-info-detail table td {
+    width: 50%;
+}
+.report-area div.quotes.report-print div.tab-content fieldset#quote-basic-info-detail table table th {
+    width: 100px;
+}
+.report-area div.quotes.report-print div.tab-content fieldset#quote-basic-info-detail table table td {
+    width: auto;
+}
+.quotes{
+    position: relative;
+    top: -30px;
+}
+legend{
+    border-bottom-color: #000;
+}

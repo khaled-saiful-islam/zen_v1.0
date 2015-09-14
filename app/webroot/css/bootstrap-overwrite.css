@@ -1,0 +1,40 @@
+/**
+Main bootstrap.css overwite
+*/
+
+.navbar-inner {
+  min-height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ababab;
+  background-image: -moz-linear-gradient(top, #aaaaaa, #bbbbbb);
+  background-image: -ms-linear-gradient(top, #aaaaaa, #bbbbbb);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#aaaaaa), to(#bbbbbb));
+  background-image: -webkit-linear-gradient(top, #aaaaaa, #bbbbbb);
+  background-image: -o-linear-gradient(top, #aaaaaa, #bbbbbb);
+  background-image: linear-gradient(top, #aaaaaa, #bbbbbb);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aaaaaa', endColorstr='#bbbbbb', GradientType=0);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+.form-horizontal .control-group{
+  margin-bottom: 8px;
+}
+
+.icon-green {
+  background-image: url("../img/glyphicons-halflings-green.png");
+}
+
+legend {
+  border-bottom-color: #ccc;
+}
+
+.modal-backdrop.in {
+  opacity: 0.001;
+}

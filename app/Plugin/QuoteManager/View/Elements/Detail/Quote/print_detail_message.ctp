@@ -1,0 +1,1 @@
+<div style="text-align: center; margin-top: 80px; color: red!important;">Please save atlest one item for Quote detail print </div>

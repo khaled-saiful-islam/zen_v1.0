@@ -1,0 +1,52 @@
+.input-box {
+    padding: 5px;
+    display: inline-block;
+}
+
+.input-box label {
+    font-weight: bold;
+}
+
+.error-message {
+    color: #b94a48;
+}
+
+.inline-form-address {
+    display: block;
+    padding-left: 132px;
+    clear: both;
+}
+
+.inline-form-field {
+    display: block;
+}
+
+.inline-form-address .control-group, .inline-form-field .control-group {
+    display: inline-block;
+}
+
+.input-box-height-div {
+    height: 30px;
+}
+
+.form-tbl {
+    margin: 0px;
+    padding: 0px;
+    /*font-size: 11px; */
+}
+
+.form-tbl th {
+    font-weight: bold;
+    vertical-align: top;
+    padding: 6px;
+    text-align: left;
+
+}
+
+.form-tbl td {
+    vertical-align: top;
+    padding: 5px 0px 0px 30px;
+
+}
+
+

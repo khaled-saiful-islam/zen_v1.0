@@ -1,0 +1,265 @@
+/*
+    Document   : style-inventory.css
+    Created on : Oct 23, 2012, 4:55:01 PM
+    Author     : sadi
+    Description:
+        All inventory specific css
+*/
+a{
+  outline: none;
+}
+img{
+  border: 0;
+}
+table.listing .heading, table.listing .heading a {
+  background:none repeat scroll 0 0 #688D1A;
+}
+table.listing .heading a:hover {
+  color:#FFFFFF;
+  text-decoration: underline;
+}
+table.listing .heading a.asc:after {
+  content: " ⇣";
+}
+table.listing .heading a.desc:after {
+  content: " ⇡";
+}
+table.listing tr.even {
+  background-color: #eaeaea;
+}
+table.listing tr.odd {
+  background-color: #ccc;
+}
+table.table-form-big {
+  /*width: 870px;*/
+
+  border: 1px solid #EDEBE8;
+}
+table.table-form-compact {
+  width: 700px;
+}
+table.table-form-compact td {
+  vertical-align: top;
+}
+table.table-data-compact {
+  /*width: 397px;*/
+  /*width: 80%;*/
+}
+table.table-data-compact-1{
+  width: 40% !important;
+}
+table.table-data-compact th {
+  /*width: 160px;*/
+  width: auto;
+}
+div.products table.table-data-compact th {
+  /*width: 80px;*/
+  width: auto;
+}
+table.table-data-multicolumn {
+  /*width: 800px;*/
+  width: 80%;
+}
+table.table-data-multicolumn th {
+  /*width: 120px;*/
+  width: auto;
+}
+table tr.clone-row td {
+  vertical-align: middle;
+}
+table tr.clone-row td div {
+  width: auto;
+}
+table tr.clone-row td .btn {
+  margin-left: 5px;
+}
+
+select.multiselect {
+  width: 500px;
+  height: 150px;
+}
+
+dl {
+  margin-bottom:50px;
+}
+dl dt {
+  background:#5f9be3;
+  color:#fff;
+  float:left;
+  font-weight:bold;
+  margin-right:10px;
+  padding:5px;
+  width:155px;
+}
+dl dd {
+  margin:2px 0;
+  padding:5px 0;
+}
+
+.small-input {
+  width: 50px;
+}
+.super-small-input {
+  width: 32px;
+}
+select.small-input {
+  width: 150px;
+}
+.money-input {
+  width: 100px;
+}
+.wide-input {
+  width: 274px;
+}
+.medium-input-select {
+  width: 175px;
+}
+.semi-input-select {
+  width: 185px;
+}
+.small-wide-input {
+  width: 170px;
+}
+textarea.wide-input {
+  width: 450px;
+}
+
+fieldset table,
+fieldset td div {
+  /*float: left;
+  width: 100%;*/
+}
+form.item-damaged-entry-form label,
+fieldset td label {
+  float: left;
+  font-weight: bold;
+  margin-right: 5px;
+  /*min-width: 80px;*/
+}
+#door-images fieldset td label,
+#door-factory-information fieldset td label {
+  min-width: 170px;
+}
+#cabinet_information fieldset td label,
+#cabinet_pricing fieldset td label {
+  min-width: 170px;
+}
+form.item-damaged-entry-form label {
+  min-width: 150px;
+}
+.itemDepartments.form label {
+  font-weight: bold;
+  margin-right: 5px;
+  min-width: 80px;
+}
+
+.products.form table {
+  width: auto;
+}
+
+div.actions {
+  float: right;
+  width: auto;
+}
+.actions ul {
+  min-height: 20px;
+}
+.actions ul li {
+  float: left;
+  padding-right: 5px;
+}
+.ui-multiselect .actions {
+  width: 100%;
+}
+
+div.related {
+  width: 100%;
+  float: left;
+}
+div.item-notes {
+  width: 100%;
+  float: left;
+}
+div.item-notes-po {
+  width: 100%;
+}
+input.next-step {
+  float: right;
+}
+
+#ordering_storage #ItemCurrentStock {
+  margin-left: 17px;
+}
+.form-tab-nav {
+  /*background-color: #bbb;*/
+  width: auto;
+}
+
+.pager li{
+  float: left;
+  list-style: none outside none;
+  padding-right: 5px;
+}
+.radio input[type="radio"], .checkbox input[type="checkbox"]{
+  margin-top: 4px;
+}
+.input, textarea, .uneditable-input{
+/*  min-width: 200px !important;*/
+}
+.cabinet-list .input, .cabinet-list textarea, .cabinet-list .uneditable-input{
+  min-width: 50px !important;
+}
+.detail-label-width{
+  width: 226px !important;
+}
+.detail-label-width-big{
+  width: 245px !important;
+}
+.big-table-td-width label{
+  font-size: 12px !important;
+}
+#door-factory-information .table-form-big .ui-combobox input{
+  border-radius: 4px 4px 4px 4px;
+  padding: 4px 6px;
+}
+.search-form tr td{
+  background: none !important;
+  border-bottom: none !important;
+}
+.listing{
+  width: 100%;
+  background-color: #F5F5F5;
+}
+table.table-form-big-margin{
+  margin-top: 10px;
+}
+#sub-content-address-form table.listing tr td, td a{
+  font-size: 12px;
+}
+.form-margin-bottom{
+  margin-bottom: 40px;
+}
+.table-data-big-title{
+  text-decoration: underline;
+  text-align: left;
+  cursor: text;
+  font-size: 14px;
+}
+.table-data-title{
+  text-decoration: underline;
+  text-align: left;
+  cursor: text;
+  font-size: 13px;
+}
+.icon-remove-margin{
+  /*margin-top: -15px;*/
+}
+
+tr.system-data {
+  color: red;
+}
+
+/*#CabinetOrderBasicDetailForm label,*/
+#CabinetOrderDetailForm label {
+  min-width: 150px;
+}

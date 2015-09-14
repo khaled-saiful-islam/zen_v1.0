@@ -1,0 +1,1 @@
+<?php echo $this->element('Detail/SkidInventory/skid_detail', array('legend' => 'View Skid Inventory', 'edit' => false)); ?>

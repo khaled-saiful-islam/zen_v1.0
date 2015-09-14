@@ -1,0 +1,1 @@
+<?php echo $this->element('Detail/Customer/customer-report',array('edit' => false)); ?>

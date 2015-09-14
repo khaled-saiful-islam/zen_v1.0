@@ -1,0 +1,1 @@
+<?php echo $this->element('Detail/Supplier/supplier-report',array('edit' => false)); ?>
